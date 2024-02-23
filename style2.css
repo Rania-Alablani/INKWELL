@@ -1,0 +1,58 @@
+.header{background-image: linear-gradient(to left top, #f4bcdd, #eabadf, #e0b8e0, #d5b7e1, #cab5e1, #c0bae7, #b6bfea, #adc4ec, #a8d0ef, #aadbee, #b3e4eb, #c2ece9);
+}
+/*to make the menu in horazintal line and the second is to put space between them*/
+nav ul li{ display: inline-block;
+           margin-right:20px;
+		   color:white;
+			
+}
+a:visited {
+	text-decoration: none;
+	
+}
+ 
+
+
+.offer{background-image: linear-gradient(to left top, #f4bcdd, #eabadf, #e0b8e0, #d5b7e1, #cab5e1, #c0bae7, #b6bfea, #adc4ec, #a8d0ef, #aadbee, #b3e4eb, #c2ece9);
+/* for some space in the top */
+margin-top: 80px;
+padding:30px 0;
+}
+
+.offer.offer-img{
+	padding: 50px;
+}
+
+small{ color: lightblue; }
+
+.btn{ display: inline-block;
+      background:white;
+	 color:purple;
+	  padding: 8px 30px;
+	  margin:30px 0px;
+	  border-radius: 30px;
+	  transition:background 0.05s; 
+	 
+	 
+	 
+	  /* the time for the botton when we hover over it */
+}
+.btn:hover{ background:gray ; } 
+
+.button{
+	
+	display: inline-block;
+      background:white;
+	 color:purple;
+	  padding: 8px 30px;
+	  margin:30px 0px;
+	  border-radius: 30px;
+	  transition:background 0.05s; 
+	
+}
+/*roaa*/
+.button:hover{
+	background-color:FFB6C1;
+	border-color:#C71585;
+}
+
